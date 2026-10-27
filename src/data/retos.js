@@ -7,12 +7,12 @@ const retos = [
     icono: 'shield',
     titulo: 'Firewall de acceso',
     consigna:
-      'El firewall pide un código numérico para dejarte pasar. Interceptaste la clave, pero está escrita en binario. Conviértela a número decimal y escríbela.',
-    comentario: '// clave interceptada (binario)',
+      'El firewall pide un código para dejar pasar. Ya se intercepto la clave, pero está escrita en binario. Tiene que convertirla a número decimal y escribirla.',
+    comentario: '// La clave interceptada esta interceptada',
     dato: '1101',
     respuesta: '13',
     pista: 'Cada posición vale 8, 4, 2 y 1 (de izquierda a derecha). Suma solo los valores donde hay un 1.',
-    exito: '¡Correcto! 1101 en binario es 13. El firewall se desactivó.',
+    exito: 'Correcto 1101 en binario es 13. El firewall se desactivó, continuemos.',
   },
   {
     id: 2,
@@ -22,12 +22,12 @@ const retos = [
     icono: 'key',
     titulo: 'Cifrado César',
     consigna:
-      'CERBERUS cifró la contraseña del servidor moviendo cada letra 3 posiciones hacia adelante en el abecedario. Descífrala para abrir el servidor.',
+      'El sistema cifró la contraseña del servidor moviendo cada letra 3 posiciones hacia adelante en el abecedario. Descifrela para abrir el servidor.',
     comentario: '// contraseña cifrada (+3)',
     dato: 'KDFNHU',
     respuesta: 'HACKER',
-    pista: 'Retrocede cada letra 3 posiciones en el abecedario: K → H, D → A, F → C...',
-    exito: '¡Correcto! La contraseña era HACKER. El servidor de cifrado está abierto.',
+    pista: 'Retroceda cada letra 3 posiciones en el abecedario: K → H, D → A, F → C...',
+    exito: 'Correcto La contraseña era HACKER. El servidor de cifrado está abierto.',
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ const retos = [
     icono: 'cpu',
     titulo: 'Llave del núcleo',
     consigna:
-      'La llave del núcleo es una secuencia de números que sigue un patrón. Descubre cuál es el número que falta para abrirlo.',
+      'La llave del núcleo es una secuencia de números que sigue un patrón. Descubra cuál es el número que falta para abrirlo.',
     comentario: '// secuencia de la llave',
     dato: '3 → 6 → 12 → 24 → ??',
     opciones: [
@@ -47,8 +47,8 @@ const retos = [
       { letra: 'D', texto: '42' },
     ],
     respuesta: '48',
-    pista: 'Fíjate qué operación convierte cada número en el siguiente.',
-    exito: '¡Correcto! Cada número es el doble del anterior. El núcleo quedó desactivado.',
+    pista: 'Fijese qué operación convierte cada número en el siguiente.',
+    exito: 'Correcto, Cada número es el doble del anterior. El núcleo quedó desactivado.',
   },
 ]
 
