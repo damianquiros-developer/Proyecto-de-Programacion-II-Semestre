@@ -1,6 +1,6 @@
 export const historia =
-  'Damian es un funcionario público con acceso al sistema de seguridad del Gobierno de. Abusando de su cargo, intentó robar una base de datos del Registro Nacional para vendérsela a OPTUS, una organización de Medio Oriente. En plena intrusión desactivó por error el VPN y dejó expuesta su identidad real. CERBERUS, la IA de seguridad del gobierno, lo detectó y lo encerró en modo de protección. Si Damian no logra salir, será despedido y juzgado ante todos los funcionarios públicos.'
-a
+  'Damian es un funcionario público con acceso al sistema de seguridad del Gobierno de Costa Rica. Abusando de su cargo, intentó robar una base de datos del Registro Nacional para vendérsela a OPTUS, una organización de Medio Oriente. En plena intrusión desactivó por error el VPN y dejó expuesta su identidad real. CERBERUS, la IA de seguridad del gobierno, lo detectó y lo encerró en modo de protección. Si Damian no logra salir, será despedido y juzgado ante todos los funcionarios públicos.'
+
 export const registro = [
   { texto: 'Intruso Detectado: Damian · VPN Desactivada · Funcionario Publico', color: 'rojo' },
   { texto: 'Protocolo CERBERUS activado — 3 capas de seguridad en línea', color: 'ambar' },
